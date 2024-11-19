@@ -20,3 +20,21 @@ function getComputerChoice () {
             return "scissors"
     }
 }
+
+// getHumanChoice function requirement: use "prompt" and return r/p/s string
+// pseduocode:
+// 1. function will be called in console to start Game
+// 2. Prompt will appear to ask for numbers 1-3
+// 3. prompt number will be translated in switch to r/p/s.
+
+function getHumanChoice() {
+    let humanInput = prompt("Please Enter a Number between 1-3. 1 for rock, 2 for paper, 3 for scissors.");
+    switch (+humanInput) {
+        case 1:
+            return "rock";
+        case 2:
+            return "paper";
+        case 3:
+            return "scissors"
+    }
+}
