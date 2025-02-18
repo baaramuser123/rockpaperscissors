@@ -11,7 +11,7 @@ playGame();
 
 function getComputerChoice () {
     let weaponNumber;
-    weaponNumber = Math.round(Math.random() *2) + 1;
+    weaponNumber = Math.floor(Math.random() *3) + 1;
     // console.log(weaponNumber);
     switch (weaponNumber) {
         case 1:
